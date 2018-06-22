@@ -66,3 +66,7 @@ main {
 .fixed {
     position: fixed;
 }
+
+.slides img {
+    filter: brightness(50%) saturate(150%);
+}
