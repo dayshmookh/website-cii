@@ -83,6 +83,7 @@ main {
 
 .rounded {
     border-radius: 8px;
+    overflow: hidden;
 }
 
 .no-overflow {
@@ -111,13 +112,88 @@ img.dark {
 
 .zoomer {
     transition: transform 0.25s ease-in-out;
-    filter: brightness(60%);
 }
 
 .zoomer:hover {
     transform: scale(1.05, 1.05);
+}
+
+.fader {
+    filter: brightness(60%);
+}
+
+.fader:hover {
     filter: brightness(90%);
 }
+
+/* 
+#card-hackathon {
+    background-image: url('../images/hero-slider/1.jpg');
+    
+    /* transition: background 3s ease-in-out; *
+}
+
+#card-conference {
+    background-image: url('../images/hero-slider/2.jpg');
+    /* transition: background 3s ease-in-out; *
+} 
+
+/* 
+
+/* Clip text element *
+.clip-text {
+    font-size: 3em;
+    font-weight: bold;
+    /* Color fallback *
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    transition: background-clip 1s;
+}
+
+.clip-text:hover {
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: initial;
+}
+
+.clip-text:before,
+.clip-text:after {
+    position: absolute;
+    content: '';
+}
+
+/* Background *
+.clip-text:before {
+    z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;
+}
+
+/* Text Background (black zone) *
+.clip-text:after {
+    position: absolute;
+    z-index: -1;
+    top: .125em;
+    right: .125em;
+    bottom: .125em;
+    left: .125em;
+    background-color: #000;
+}
+
+/* Change the background position to display letter when the black zone isn't here *
+.clip-text--no-textzone:before {
+    background-position: 15em 0;
+}
+
+.clip-text--no-textzone:after {
+    content: none;
+}
+
+ */
 
 .card.tiny {
     height: 250px;
@@ -153,28 +229,60 @@ img.sponsor:hover {
 
 #hero-slider {
     transform-style: preserve-3d;
+    -webkit-animation: bgSlider;
+    animation: bgSlider;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-transition: background-image 1s;
+    -o-transition: background-image 1s;
+    transition: background-image 1s;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#hero-slider .caption {
-    transform: translateZ(50px);
+.gradient-orange {
+    background: #ff6f00;
+    background: linear-gradient(to bottom, #ff6f00, #e65100);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#hero-slider .caption a {
-    transform: translateZ(100px);
+@-webkit-keyframes bgSlider {
+    0% {
+        background-image: url("../images/hero-slider/1.jpg");
+    }
+    25% {
+        background-image: url("../images/hero-slider/2.jpg");
+    }
+    50% {
+        background-image: url("../images/hero-slider/3.jpg");
+    }
+    75% {
+        background-image: url("../images/hero-slider/4.jpg");
+    }
+    100% {
+        background-image: url("../images/hero-slider/5.jpg");
+    }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@keyframes bgSlider {
+    0% {
+        background-image: url("../images/hero-slider/1.jpg");
+    }
+    25% {
+        background-image: url("../images/hero-slider/2.jpg");
+    }
+    50% {
+        background-image: url("../images/hero-slider/3.jpg");
+    }
+    75% {
+        background-image: url("../images/hero-slider/4.jpg");
+    }
+    100% {
+        background-image: url("../images/hero-slider/5.jpg");
+    }
+}
