@@ -286,3 +286,11 @@ img.sponsor:hover {
         background-image: url("../images/hero-slider/5.jpg");
     }
 }
+
+
+
+
+.right-border-orange
+{
+    border-right: 3px solid orange;
+}

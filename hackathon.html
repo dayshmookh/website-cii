@@ -81,7 +81,7 @@
 
                     <h1 class="header center white-text">HACKATHON</h1>
 
-                    <h4 class="center orange-text text-lighten-1"><i class="material-icons">calendar_today</i>        July 27, 2018</h4>
+                    <h4 class="center orange-text text-lighten-1"><i class="material-icons">calendar_today</i> July 27, 2018</h4>
 
                     <h4 class="center orange-text text-lighten-1">TCS Mihan</h4>
 
@@ -123,75 +123,29 @@
 
 
 
-            <div class="filterDiv topicone">
-                <ul class="collapsible popout">
-                    <li>
-                        <div class="collapsible-header">
-                            <i class="material-icons" style="color: orange">adjust</i>Problem Statement
-                        </div>
-                        <div class="collapsible-body center" style="border-right: 6px solid orange">
-                            <h4>Problem Statement</h4>
-                            <h6>Details about the Problem Statement</h6>
-                            <h5>Eligibility Criteria</h5>
-                            <p> one <br> two <br>three <br></p>
-                            <a class="waves-effect waves-light btn orange" style="width: 85%;margin-left: 40px;"><i class="material-icons left">hdr_strong</i>Enroll Now</a>
-                        </div>
+            <ul class="collapsible expandable">
+                <li>
+                    <div class="collapsible-header"> <i class="material-icons" style="color: orange">adjust</i>Problem Statement</div>
+                    <div class="collapsible-body">
+                        <p>asdfghkdsf sf nsdjkfs skfvs rgdgvd jfdkff bsfjebfferffsfbsf fufbe wef uewfb ev yfwfs ejf bfsd vagb yy wfe syfk bib ygergyb</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header"> <i class="material-icons" style="color: orange">adjust</i>Problem Statement</div>
+                    <div class="collapsible-body">
+                        <p>asdfghkdsf sf nsdjkfs skfvs rgdgvd jfdkff bsfjebfferffsfbsf fufbe wef uewfb ev yfwfs ejf bfsd vagb yy wfe syfk bib ygergyb</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header"> <i class="material-icons" style="color: orange">adjust</i>Problem Statement</div>
+                    <div class="collapsible-body">
+                        <p>asdfghkdsf sf nsdjkfs skfvs rgdgvd jfdkff bsfjebfferffsfbsf fufbe wef uewfb ev yfwfs ejf bfsd vagb yy wfe syfk bib ygergyb</p>
+                    </div>
+                </li>
+            </ul>
 
 
-                    </li>
-                    <br>
 
-                    <li>
-                        <div class="collapsible-header">
-                            <i class="material-icons" style="color: orange">adjust</i>Problem Statement
-                        </div>
-                        <div class="collapsible-body center" style="border-right: 6px solid orange">
-                            <h4>Problem Statement</h4>
-                            <h6>Details about the Problem Statement</h6>
-                            <h5>Eligibility Criteria</h5>
-                            <p> one <br> two <br>three <br></p>
-                            <a class="waves-effect waves-light btn orange" style="width: 85%;margin-left: 40px;"><i class="material-icons left">hdr_strong</i>Enroll Now</a>
-                        </div>
-                        <!--<a class="waves-effect waves-light btn orange" style="width: 85%;margin-left: 40px;"><i class="material-icons left">hdr_strong</i>Enroll Now</a>-->
-                    </li>
-
-                    <br>
-
-                    <li>
-                        <div class="collapsible-header">
-                            <i class="material-icons" style="color: orange">adjust</i>Problem Statement
-                        </div>
-                        <div class="collapsible-body center" style="border-right: 6px solid orange">
-                            <h4>Problem Statement</h4>
-                            <h6>Details about the Problem Statement</h6>
-                            <h5>Eligibility Criteria</h5>
-                            <p> one <br> two <br>three <br></p>
-                            <a class="waves-effect waves-light btn orange" style="width: 85%;margin-left: 40px;"><i class="material-icons left">hdr_strong</i>Enroll Now</a>
-                        </div>
-                        <!--<a class="waves-effect waves-light btn orange" style="width: 85%;margin-left: 40px;"><i class="material-icons left">hdr_strong</i>Enroll Now</a>-->
-                    </li>
-
-
-                    <br>
-
-                    <li>
-                        <div class="collapsible-header">
-                            <i class="material-icons" style="color: orange">adjust</i>Problem Statement
-                        </div>
-                        <div class="collapsible-body center" style="border-right: 6px solid orange">
-                            <h4>Problem Statement</h4>
-                            <h6>Details about the Problem Statement</h6>
-                            <h5>Eligibility Criteria</h5>
-                            <p> one <br> two <br>three <br></p>
-                            <a class="waves-effect waves-light btn orange" style="width: 85%;margin-left: 40px;"><i class="material-icons left">hdr_strong</i>Enroll Now</a>
-                        </div>
-                        <!--<a class="waves-effect waves-light btn orange" style="width: 85%;margin-left: 40px;"><i class="material-icons left">hdr_strong</i>Enroll Now</a>-->
-                    </li>
-
-
-                </ul>
-
-            </div>
 
         </div>
     </main>
@@ -265,7 +219,15 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>
     <script src="js/aos.js"></script>
-    <script src="js/script.js"></script>
+
+    <script>
+        var elem = document.querySelector('.collapsible.expandable');
+        var instance = M.Collapsible.init(elem, {
+            accordion: false
+        });
+
+    </script>
+
 </body>
 
 </html>
