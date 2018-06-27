@@ -290,7 +290,13 @@ img.sponsor:hover {
 
 
 
+<<<<<<< HEAD
 nav ul li a:hover, nav ul li:hover {
     background:#ffb74d ;
 
+=======
+.right-border-orange
+{
+    border-right: 3px solid orange;
+>>>>>>> origin/master
 }
