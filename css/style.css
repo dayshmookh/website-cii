@@ -81,6 +81,19 @@ main {
     padding-bottom: 70px;
 }
 
+
+
+
+.margined-bottom-comfortable {
+    margin-bottom: 45px;
+}
+
+
+
+
+
+
+
 .strong {
     font-weight: 600;
 }
@@ -291,17 +304,22 @@ img.sponsor:hover {
     }
 }
 
-
-
-
-nav ul li a:hover, nav ul li:hover {
-    background:#ffb74d ;
-
+nav ul li a:hover,
+nav ul li:hover {
+    background: #ffb74d;
 }
 
-.right-border-orange
-{
+.right-border-orange {
     border-right: 3px solid orange;
-
 }
 
+.speaker img {
+    max-width: 150px;
+    border-radius: 50% 0% 50% 50%;
+    transition: transform ease-in-out 0.25s, border-radius ease-in-out 0.25s;
+}
+
+.speaker img:hover {
+    border-radius: 50% 0% 50% 0%;
+    transform: scale(1.1, 1.1);
+}
