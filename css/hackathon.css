@@ -1,8 +1,12 @@
-*{
+/* *{
     font-family: 'Raleway', sans-serif;
+} */
+
+.prize svg {
+    height: 100px;
 }
 
-#div1{
-     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(10%);
+#domain
+{
+    line-height: 40px;
 }
