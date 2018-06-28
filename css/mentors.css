@@ -8,3 +8,12 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+
+#name
+{
+    color: orange;
+}
+#name:hover
+{
+    color:#607d8b;
+}
