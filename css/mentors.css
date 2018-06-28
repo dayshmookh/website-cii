@@ -17,3 +17,9 @@
 {
     color:#607d8b;
 }
+#secondcol
+{
+   overflow: hidden;
+    height: 200px;
+    width: 300px;
+}
