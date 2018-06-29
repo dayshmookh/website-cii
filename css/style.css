@@ -229,12 +229,16 @@ img.dark {
 
 .btn-registerr-hero {
     border: 1px solid orange;
+    color: orange;
     border-radius: 50px;
     background-color: rgba(255, 255, 255, 0)
 }
 
 .btn-registerr-hero:hover {
-    background-color: rgba(255, 255, 255, 0.2)
+    border: 1px solid white;
+    color: white;
+    border-radius: 0px;
+    background-color: orange;
 }
 
 .no-padding {
