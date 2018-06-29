@@ -22,3 +22,8 @@
     
     transform: translateZ(10px)
 }
+#event
+{
+    word-spacing: 2px;
+    font-size: 22px;
+}
