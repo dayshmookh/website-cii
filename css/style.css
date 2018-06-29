@@ -226,6 +226,17 @@ img.dark {
     background-color: rgba(255, 255, 255, 0.2)
 }
 
+
+.btn-registerr-hero {
+    border: 1px solid orange;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0)
+}
+
+.btn-registerr-hero:hover {
+    background-color: rgba(255, 255, 255, 0.2)
+}
+
 .no-padding {
     padding: 0;
 }
@@ -329,4 +340,8 @@ nav ul li:hover {
 .speaker img:hover {
     border-radius: 50% 0% 50% 0%;
     transform: scale(1.1, 1.1);
+}
+.parallax-container
+{
+     height: 78vh
 }

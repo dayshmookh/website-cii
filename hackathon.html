@@ -11,13 +11,20 @@
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/hackathon.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> -->
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
 
 </head>
+<style>
+    * {
+        font-family: 'Montserrat', sans-serif;
+    }
+</style>
 
 <body>
 
@@ -100,15 +107,11 @@
         </section>
 
 
-        <section class="padded-cozy">
+
+        <section class="padded-top-cozy padded-bottom-cozy">
             <div class="container">
                 <div class="row">
-                    <div class="col s12 m8 push-m2 l6 push-l3 full-width rounded grey lighten-2">
-                        <!-- <div class=" grey lighten-2">
-                    <span class="left orange-text text-lighten-2">
-                        <i class="material-icons">calendar_today</i> July 27, 2018</span>
-                    <span class="right orange-text text-lighten-2"><i class="material-icons">location_on</i> TCS Mihan</span>
-                </div> -->
+                    <div class="col s6 m8 push-m2 l6 push-l3 full-width rounded grey lighten-2">
 
                         <h4 class="orange-text text-darken-2 center light padded-compact">Schedule</h4>
 
@@ -146,10 +149,7 @@
                 </div>
             </div>
         </section>
-        <div class="divider"></div>
-
-
-
+        <div class="divider" x></div>
 
 
         <section class="padded-cozy">
@@ -212,12 +212,64 @@
 
         </section>
 
+
         <div class="divider"></div>
 
 
-        <section class="grey lighten-2">
-            <div class="container padded-cozy">
-                <h3 class="orange-text text-lighten-2 center padded-bottom-cozy">Guidelines</h3>
+
+
+        <section class="padded-top-cozy padded-bottom-cozy ">
+            <div id="domain">
+                <h3 class="orange-text text-lighten-2 center ">Domains</h3>
+                <p class="center light flow-text">
+                    1. Life Science, Textile, Healthcare & Pharmacy
+                    <br> 2. Automobile, Defence & Aerospace
+                    <br> 3. Logistics, Supply Chain & Warehousing
+                    <br> 4. Travel, Transport & Hospitality
+                    <br> 5. Agriculture & Food Processing
+                    <br> 6. Energy & Environment
+                    <br> 7. Government & Citizen Services
+
+                </p>
+            </div>
+
+        </section>
+
+        <div class="divider"></div>
+
+
+
+
+
+
+
+        <section>
+            <div class="container padded-top-cozy padded-bottom-cozy">
+                <h3 class="orange-text text-lighten-2 center padded-bottom-comfortable">Guidelines</h3>
+
+                <p>
+
+
+
+                    For developers Contribute! To contribute, you’ll need to be able to produce builds for your device. Pick your device from
+                    our list of supported devices to get started. Once you’re successfully running your own build, you can
+                    begin to make your changes. All the apps included in LineageOS can be found in packages/apps, and core
+                    parts of the system can be found in frameworks/base. Once you’ve finished making your change, simply
+                    follow our guide on submitting to Gerrit. Submit your port! If you unofficially maintain a device, and
+                    think it’s good enough to go live, follow our instructions on submitting a port. One of our developer
+                    relations staff will reach out to you, and we’ll work to get the ball rolling on official builds for
+                    your device.
+
+
+                </p>
+            </div>
+        </section>
+
+<div class="divider"></div>
+
+        <section >
+            <div class="container padded-top-cozy padded-bottom-cozy">
+                <h3 class="orange-text text-lighten-2 center padded-bottom-cozy">Technology info</h3>
 
                 <p>
 
@@ -245,40 +297,10 @@
         <div class="divider"></div>
 
 
-        <section >
-                <div class="container padded-cozy">
-                    <h3 class="orange-text text-lighten-2 center padded-bottom-cozy">Technology info</h3>
-    
-                    <p>
-    
-    
-    
-                        For developers Contribute! To contribute, you’ll need to be able to produce builds for your device. Pick your device from
-                        our list of supported devices to get started. Once you’re successfully running your own build, you can
-                        begin to make your changes. All the apps included in LineageOS can be found in packages/apps, and core
-                        parts of the system can be found in frameworks/base. Once you’ve finished making your change, simply
-                        follow our guide on submitting to Gerrit. Submit your port! If you unofficially maintain a device, and
-                        think it’s good enough to go live, follow our instructions on submitting a port. One of our developer
-                        relations staff will reach out to you, and we’ll work to get the ball rolling on official builds for
-                        your device.
-    
-    
-                    </p>
-                </div>
-            </section>
-    
-    
-    
-    
-    
-    
-            <div class="divider"></div>
-
-
 
 
         <section>
-            <div class="row container padded-top-cozy">
+            <div class="row container padded-top-cozy padded-bottom-cozy">
                 <h3 class="orange-text text-lighten-2 center padded-bottom-cozy">Problem Statements</h3>
 
 
@@ -345,9 +367,7 @@
 
             </div>
 
-
         </section>
-
 
     </main>
 
@@ -429,16 +449,15 @@
         });
 
         $(document).ready(function () {
-    
 
-    $('.prize').tilt({
-        maxTilt: 25,
-        scale: 1.05, // 2 = 200%, 1.5 = 150%, etc..
-        glare: false, // Enables glare effect
-        //maxGlare: 0.4 // From 0 - 1.
-    });
-});
 
+            $('.prize').tilt({
+                maxTilt: 25,
+                scale: 1.05, // 2 = 200%, 1.5 = 150%, etc..
+                glare: false, // Enables glare effect
+                //maxGlare: 0.4 // From 0 - 1.
+            });
+        });
     </script>
 
 </body>
