@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -19,7 +20,7 @@
 
 <body>
     <header>
-        <div class="navbar-fixed">
+        <div class="fixed full-width" data-aos="fade-down" data-aos-offset="1200" data-aos-easing="ease-in-sine" style="z-index: 998;">
             <nav class="white">
                 <div class="nav-wrapper container">
                     <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large grey-text text-darken-2">
@@ -82,13 +83,17 @@
     <main>
         <section>
 
-            <div id="hero-slider" class="valign-wrapper">
-                <div class="container center">
+            <div id="hero-slider" class="valign-wrapper screen-height">
+                <div class="container center padded-top-cozy">
                     <div class="caption center">
+                        <!--
                         <h1 class="white-text">IndNX 4.0</h1>
                         <p class="white-text">Date: XX Month 2018</p>
                         <a href="https://reg.form.link" class="btn btn-register-hero btn-large btn-flat white-text">Register now</a>
+                        -->
+                        <img src="images/Logo_.jpg copy.png" alt="logo" style="max-width:80vw; max-height: 40vh">
                     </div>
+                    <i class="material-icons white-text padded-top-comfortable animated infinite bounce medium light">keyboard_arrow_down</i>
                 </div>
             </div>
         </section>
@@ -226,7 +231,7 @@
                             <h5 class="light orange-text text-darken-2 center">Speaker name</h5>
                         </div>
                     </div>
-                    
+
 
 
                 </div>
@@ -385,7 +390,22 @@
     <script src="js/aos.js"></script>
     <script src="js/tilt.jquery.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/home.js"></script>
+    <script>
+        $(document).ready(function () {
+            /* $('#hero-slider').slider({
+                indicators: false,
+                height: 700,
+                interval: 2500
+            }); */
+
+            $('#hero-slider').tilt({
+                maxTilt: 15,
+                scale: 1.05, // 2 = 200%, 1.5 = 150%, etc..
+                glare: true, // Enables glare effect
+                maxGlare: 0.4 // From 0 - 1.
+            });
+        });
+    </script>
 </body>
 
 </html>
