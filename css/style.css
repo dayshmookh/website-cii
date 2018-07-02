@@ -226,7 +226,7 @@ img.dark {
 }
 
 .btn-register-hero {
-    border: 1px solid white;
+    border: 1px solid orange;
     border-radius: 50px;
     background-color: rgba(255, 255, 255, 0)
 }
@@ -357,4 +357,19 @@ nav ul li:hover {
 .parallax-container
 {
      height: 78vh
+}
+#eventdivider
+{
+    width: 340px;
+    background-color: yellow;
+    height: 2px;
+    margin-left: 180px;
+}
+#dates
+{
+    font-size: 20px;
+}
+#venue
+{
+    font-size: 40px;
 }
