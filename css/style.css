@@ -88,9 +88,18 @@ main {
     margin-bottom: 45px;
 }
 
+.margined-top-comfortable {
+    margin-top: 45px;
+}
 
 
+.margined-bottom-compact {
+    margin-bottom: 20px;
+}
 
+.margined-top-compact {
+    margin-top: 20px;
+}
 
 
 
