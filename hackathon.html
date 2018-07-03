@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/hackathon.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
 
     <!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> -->
 
@@ -57,6 +57,12 @@
                         <li>
                             <a class="waves-effect waves-orange grey-text text-darken-2 " href="contact.html">Contact</a>
                         </li>
+                        <li>
+                            <a class="waves-effect waves-orange grey-text text-darken-2 " href="faq.html">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="https://reg.form.link" class="btn orange white-text">Register</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -79,6 +85,12 @@
             </li>
             <li>
                 <a class="waves-effect" href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a class="waves-effect waves-orange grey-text text-darken-2 " href="faq.html">FAQ</a>
+            </li>
+            <li>
+                <a href="https://reg.form.link" class="btn orange white-text">Register</a>
             </li>
         </ul>
     </header>
@@ -150,21 +162,21 @@
         </section>-->
         <br>
         <p class="center">
-            <a href="https://reg.form.link" class="btn btn-register-hero btn-large btn-flat orange-text">Register now</a>
+            <a href="https://reg.form.link" class="btn btn-register-hero btn-large btn-flat" id="registerbtn">Register now</a>
         </p>
         <br>
         <div class="row">
-            <div class="col s6 center">
+            <div class="col s12 l6 center">
                 <h4 class="orange-text">Event Dates</h4>
                 <div class="divider" id="eventdivider"></div>
-                <p id="dates">Hackathon Registration - 5th July - 15th July
+                <p id="dates">Hackathon Registration - <span class="orange-text">5th July - 15th July</span>
                     <br> Prototype Implementation - <span class="orange-text">16th July - 13th September</span> <br>Project Submission - <span class="orange-text">14th September</span> <br>Project Presentation - <span class="orange-text">17th September - 21st September</span>
                 </p>
 
                 <br>
 
             </div>
-            <div class="col s6 center">
+            <div class="col s12 l6 center">
                 <h4 class="orange-text">Event Venue</h4>
                 <div class="divider" id="eventdivider"></div>
                 <p id="venue"><span class="orange-text">TCS</span> Mihan</p>
@@ -236,10 +248,10 @@
 
 
 
-        <section class="padded-top-cozy padded-bottom-cozy ">
+        <section class="padded-bottom-cozy ">
             <div id="domain">
                 <h3 class="orange-text center ">Domains</h3>
-                <p class="center light flow-text">
+               <!-- <p class="center light flow-text">
                     1. Life Science, Textile, Healthcare & Pharmacy
                     <br> 2. Automobile, Defence & Aerospace
                     <br> 3. Logistics, Supply Chain & Warehousing
@@ -248,7 +260,27 @@
                     <br> 6. Energy & Environment
                     <br> 7. Government & Citizen Services
 
-                </p>
+                </p>-->
+                <div class="row container padded-compact">
+                    <div class="col s12 m6 l4" id="domainthree">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/agriculture-farm-farming-39511.jpg">
+                                <span class="card-title">Agriculture & <br> Food Processing</span>
+                            </div>
+                            <!--<div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                              </div>-->
+                        </div>
+                    </div>
+                    <div class="col s4 m6 l4 blue" id="domainthree">
+
+                    </div>
+                    <div class="col s4 m6 l4 red" id="domainthree">
+
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -303,7 +335,7 @@
 
 
 
-        <section>
+      <!--  <section>
             <div class="row container padded-top-cozy padded-bottom-cozy">
                 <h3 class="orange-text center padded-bottom-cozy">Problem Statements</h3>
 
@@ -366,7 +398,7 @@
 
             </div>
 
-        </section>
+        </section>-->
 
     </main>
 
