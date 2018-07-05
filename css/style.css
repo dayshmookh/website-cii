@@ -1,4 +1,11 @@
+
 /* body flex adjustment for  sticky footer */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 
 body {
     display: flex;
