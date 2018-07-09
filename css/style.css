@@ -308,10 +308,10 @@ img.sponsor:hover {
 
 @-webkit-keyframes bgSlider {
     0% {
-        background-image: url("../images/hero-slider/1.jpg");
+        background-image: url("../images/hero-slider/action-blur-electronics-247932.jpg");
     }
     25% {
-        background-image: url("../images/hero-slider/2.jpg");
+        background-image: url("../images/hero-slider/apple-black-and-white-brick-wall-169573.jpg");
     }
     50% {
         background-image: url("../images/hero-slider/3.jpg");
@@ -326,10 +326,10 @@ img.sponsor:hover {
 
 @keyframes bgSlider {
     0% {
-        background-image: url("../images/hero-slider/1.jpg");
+        background-image: url("../images/hero-slider/action-blur-electronics-247932.jpg");
     }
     25% {
-        background-image: url("../images/hero-slider/2.jpg");
+        background-image: url("../images/hero-slider/apple-black-and-white-brick-wall-169573.jpg");
     }
     50% {
         background-image: url("../images/hero-slider/3.jpg");
@@ -410,4 +410,9 @@ nav ul li:hover {
 #date
 {
     font-size: 40px;
+}
+
+#footerb
+{
+    background-image: url(/images/adult-agreement-beard-618550%20copy.jpg);
 }
