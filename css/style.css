@@ -343,8 +343,11 @@ img.sponsor:hover {
 }
 
 nav ul li a:hover,
-nav ul li:hover {
-    background: #ffb74d;
+nav ul li:hover,
+#navig:hover
+{
+    background-color: #1976d2;
+    color: gainsboro;
 }
 
 .right-border-orange {
