@@ -342,6 +342,10 @@ img.sponsor:hover {
     }
 }
 
+nav {
+
+    text-transform: uppercase;
+}
 nav ul li a:hover,
 nav ul li:hover,
 #navig:hover
