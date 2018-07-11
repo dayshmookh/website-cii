@@ -350,8 +350,8 @@ nav ul li a:hover,
 nav ul li:hover,
 #navig:hover
 {
-    background-color: #1976d2;
-    color: gainsboro;
+    background-color: orange;
+    color: white;
 }
 
 .right-border-orange {
@@ -422,4 +422,17 @@ nav ul li:hover,
 #footerb
 {
     background-image: url(/images/adult-agreement-beard-618550%20copy.jpg);
+}
+.up
+{
+    font-size: 40px;
+    color: orange;
+    text-transform: uppercase
+
+}
+.upone
+{
+    font-size: 30px;
+     color: orange;
+    text-transform: uppercase;
 }
