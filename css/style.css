@@ -1,10 +1,12 @@
 
 /* body flex adjustment for  sticky footer */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
 
 *{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 body {
@@ -427,7 +429,7 @@ nav ul li:hover,
 {
     font-size: 40px;
     color: orange;
-    text-transform: uppercase
+
 
 }
 .upone
