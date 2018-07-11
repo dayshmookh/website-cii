@@ -266,12 +266,12 @@ img.dark {
 }
 
 img.sponsor {
-    filter: grayscale(100%);
+
     transition: transform 0.25s ease-in-out;
 }
 
 img.sponsor:hover {
-    filter: initial;
+
     transform: scale(1.05, 1.05);
 }
 
@@ -320,7 +320,7 @@ img.sponsor:hover {
         background-image: url("../images/hero-slider/advice-advise-advisor-7096.jpg");
     }
     100% {
-        background-image: url("../images/hero-slider/5.jpg");
+        background-image: url("../images/hero-slider/antique-camera-classic-242433.jpg");
     }
 }
 
@@ -338,7 +338,7 @@ img.sponsor:hover {
         background-image: url("../images/hero-slider/advice-advise-advisor-7096.jpg");
     }
     100% {
-        background-image: url("../images/hero-slider/5.jpg");
+        background-image: url("../images/hero-slider/antique-camera-classic-242433.jpg");
     }
 }
 
