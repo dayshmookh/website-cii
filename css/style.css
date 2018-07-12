@@ -316,10 +316,10 @@ img.sponsor:hover {
         background-image: url("../images/hero-slider/microphone-2316268.jpg");
     }
     50% {
-        background-image: url("../images/hero-slider/event-1597531.jpg");
+        background-image: url("../images/hero-slider/advice-advise-advisor-7096.jpg");
     }
     75% {
-        background-image: url("../images/hero-slider/microphone-2316268.jpg");
+        background-image: url("../images/hero-slider/agreement-business-clapping-990817.jpg");
     }
     100% {
         background-image: url("../images/hero-slider/event-1597531.jpg");
@@ -328,19 +328,19 @@ img.sponsor:hover {
 
 @keyframes bgSlider {
     0% {
-        background-image: url("../images/hero-slider/action-blur-electronics-247932.jpg");
-    }
-    25% {
         background-image: url("../images/hero-slider/microphone-2316268.jpg");
     }
+    25% {
+        background-image: url("../images/hero-slider/advice-advise-advisor-7096.jpg");
+    }
     50% {
-        background-image: url("../images/hero-slider/event-1597531.jpg");
+        background-image: url("../images/hero-slider/agreement-business-clapping-990817.jpg");
     }
     75% {
         background-image: url("../images/hero-slider/microphone-2316268.jpg");
     }
     100% {
-        background-image: url("../images/hero-slider/event-1597531.jpg");
+        background-image: url("../images/hero-slider/advice-advise-advisor-7096.jpg");
     }
 }
 
